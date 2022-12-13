@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+}
+
+.contanier {
+    display: flex;
+}
+
+.content {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background: #191718;
+    color: #FFFFFF;
+}
+
+.menu {
+    border-bottom: 1px solid gray;
+    width: 150px;
+    height: 40px;
+    display: flex;
+}
+
+.menu:hover {
+    background: gray;
+}
+
+a {
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+.logo {
+    background-image: url('./images/logoNCC\ 1.png');
+    margin: 20px auto;
+    height: 122px;
+    width: 310px;
+}
+
+.description {
+    background-color: #EFEFEF;
+    text-align: center;
+    margin: 0 150px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 35px;
+}
+
+.detail {
+    width: 972px;
+    margin: 20px auto;
+    padding-bottom: 30px;
+}
+
+.product {
+    display: flex;
+    margin: 0 150px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-detail {
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.img-css {
+    background-image: url('./images/css-icon\ 1.png');
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.img-html {
+    background-image: url('./images/html-icon\ 1.png');
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+.img-url {
+    background-image: url('./images/url-icon\ 1.png');
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-description {
+    width: 450px;
+    line-height: 1.2;
+}
+
+.footer {
+    border-top: 1px solid gray;
+}
+
+.author {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .contanier {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        background-size: contain;
+    }
+
+    .description {
+        margin: 0 10px;
+    }
+
+    .title {
+        padding-top: 10px;
+    }
+
+    .detail {
+        width: 100%;
+        font-size: 13px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .product {
+        margin: 0 10px;
+        display: block;
+    }
+
+    .product-name {
+        font-size: 16px;
+    }
+
+    .product-detail {
+        margin-bottom: 50px;
+    }
+
+    .product-description {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.1;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .author {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 481px) {
+    .contanier {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        background-size: contain;
+    }
+
+    .description {
+        margin: 0;
+    }
+
+    .title {
+        padding-top: 10px;
+    }
+
+    .detail {
+        width: 100%;
+        font-size: 13px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .product {
+        margin: 0 10px;
+        display: block;
+    }
+
+    .product-name {
+        font-size: 16px;
+    }
+
+    .product-detail {
+        margin-bottom: 50px;
+    }
+
+    .product-description {
+        width: 100%;
+        font-size: 15px;
+        line-height: 1.1;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .author {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+
+    .description {
+        margin: 20px;
+    }
+
+    .title {
+        padding-top: 20px
+    }
+
+    .detail {
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: 14px;
+        margin: 15px auto;
+    }
+
+    .product {
+        margin: 0 20px;
+        gap: 25px
+    }
+
+    .product-detail {
+        margin-bottom: 100px;
+    }
+
+    .product-description {
+        width: 100%;
+    }
+
+    .author {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .description {
+        margin: 0 50px;
+    }
+
+    .title {
+        padding-top: 20px;
+    }
+
+    .detail {
+        width: 100%;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .product {
+        margin: 0 50px;
+        gap: 30px;
+    }
+
+    .product-description {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1281px) {
+    .product-description {
+        width: 100%;
+    }
+}
